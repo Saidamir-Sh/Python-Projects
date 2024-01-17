@@ -41,7 +41,7 @@ while True:
 # New concepts:
     
     # what is standard I/O stream ? - > interconnected input and output communication channels between a computer program and its environment when it begins execution
-    # different I/O streams : stdin, stdout, stderr 
+    # different I/O streams : stdin, stdout, stderr
     
     # sys.stdout -> standard output stream. default destination of print(file=)
     # these below 2 codes are almost same (please google the difference):
