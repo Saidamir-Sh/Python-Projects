@@ -16,3 +16,10 @@ my_file.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
 my_file.py:54:0: C0304: Final newline missing (missing-final-newline)
 my_file.py:31:10: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
 ```
+
+Pylint message codes (ex. C0301):
+ - R - Refactor for good practice metric violation
+ - C - convention for coding standard violation
+ - W - Warning for stylistic problems or minor programming issues
+ - E - Error for important programmming issues 
+ - F - Fatal for error that prevent further process
