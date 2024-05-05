@@ -5,3 +5,10 @@ sys.exit -> terminates the program, exit the interpreter. and aises SystemExit e
 - sys.exit(2) - used to indicate misuse or incorrect usage of program, ex: passed invalid argument
 - sys.exit(127) - indicates requested command or programm is not found or (nonexistent command)
 - sys.exit(128+) - specific meaning depending on the program or the context, some programs use specific codes to convey details about error
+
+
+word = "SCHOOL"
+word[:] -> "SCHOOL"
+word[::-1] -> "LOOCHS"
+word[2::-1] -> "LOO"
+word[::-2] -> "LOC" # -2 stepper

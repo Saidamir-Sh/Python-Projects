@@ -25,5 +25,3 @@ def load(file):
         # later use fstring instead of format, shorter.
         print("{}\nError opening: {}. Terminating program.".format(e, file), file=sys.stderr)
         sys.exit(1)
-
-load("words.txt")
