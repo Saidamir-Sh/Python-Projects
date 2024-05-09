@@ -12,3 +12,13 @@ word[:] -> "SCHOOL"
 word[::-1] -> "LOOCHS"
 word[2::-1] -> "LOO"
 word[::-2] -> "LOC" # -2 stepper
+
+words_list = ["Hello", "Python", "Learner"]
+print(*words_list, sep="\n")
+* -> unpacker operator, it prints each item separately
+sep -> separator param
+
+Profiling - analytical process that gathers statics on programs behavior. number and duration of function calls, memory it takes.
+profile - measurment output
+
+Sets are faster than lists when using `in` keyword. Sets use hashtable for lookup, downside is you cannot you cannot control order,
